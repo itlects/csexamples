@@ -1,0 +1,10 @@
+C:\Users\jhcho\Documents\My_C#\My_Server\bin\Debug\My_Server.exe.config
+C:\Users\jhcho\Documents\My_C#\My_Server\bin\Debug\My_Server.exe
+C:\Users\jhcho\Documents\My_C#\My_Server\bin\Debug\My_Server.pdb
+C:\Users\jhcho\Documents\My_C#\My_Server\obj\Debug\My_Server.csproj.AssemblyReference.cache
+C:\Users\jhcho\Documents\My_C#\My_Server\obj\Debug\My_Server.Form1.resources
+C:\Users\jhcho\Documents\My_C#\My_Server\obj\Debug\My_Server.Properties.Resources.resources
+C:\Users\jhcho\Documents\My_C#\My_Server\obj\Debug\My_Server.csproj.GenerateResource.cache
+C:\Users\jhcho\Documents\My_C#\My_Server\obj\Debug\My_Server.csproj.CoreCompileInputs.cache
+C:\Users\jhcho\Documents\My_C#\My_Server\obj\Debug\My_Server.exe
+C:\Users\jhcho\Documents\My_C#\My_Server\obj\Debug\My_Server.pdb

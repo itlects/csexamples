@@ -1,0 +1,10 @@
++ 패킷을 이용한 데이타 전송
+ https://it-jerryfamily.tistory.com/entry/Program-C-패킷을-이용한-데이타-전송
+
+패킷을 이용한 데이타 전송 예제입니다. 로그인과 회원가입을 예로 들어 설명 합니다.
+전송할 데이타를 바로 네트워크 스트림에 쓰지 않고 전송 패킷에 저장을 한 후, 일괄 전송하는 방법입니다.
+
+1. 3개의 프로젝트를 먼저 만듭니다.
+  MyLogin_Packet : 클래스 라이브러리 타입, dll class 파일, 패킷 정의용
+  MyLoginClient1_WindowsForm : 윈도우즈 폼 타입. 클라이언트 폼. exe 파일
+  MyLoginServer1_WindowsForm : 윈도우즈 폼 타입. 서버 폼. exe 파일

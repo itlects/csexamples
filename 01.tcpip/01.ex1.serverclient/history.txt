@@ -1,0 +1,4 @@
++ c# winform, tcpip 통신
+.\works.c#\01.tcpip\01.ex1.serverclient
+https://unininu.tistory.com/475
+
