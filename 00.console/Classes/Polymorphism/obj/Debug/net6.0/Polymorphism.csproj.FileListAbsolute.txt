@@ -1,0 +1,15 @@
+C:\works\works.c#\csexample\00.console\Classes\Polymorphism\bin\Debug\net6.0\Polymorphism.exe
+C:\works\works.c#\csexample\00.console\Classes\Polymorphism\bin\Debug\net6.0\Polymorphism.deps.json
+C:\works\works.c#\csexample\00.console\Classes\Polymorphism\bin\Debug\net6.0\Polymorphism.runtimeconfig.json
+C:\works\works.c#\csexample\00.console\Classes\Polymorphism\bin\Debug\net6.0\Polymorphism.dll
+C:\works\works.c#\csexample\00.console\Classes\Polymorphism\bin\Debug\net6.0\Polymorphism.pdb
+C:\works\works.c#\csexample\00.console\Classes\Polymorphism\obj\Debug\net6.0\Polymorphism.csproj.AssemblyReference.cache
+C:\works\works.c#\csexample\00.console\Classes\Polymorphism\obj\Debug\net6.0\Polymorphism.GeneratedMSBuildEditorConfig.editorconfig
+C:\works\works.c#\csexample\00.console\Classes\Polymorphism\obj\Debug\net6.0\Polymorphism.AssemblyInfoInputs.cache
+C:\works\works.c#\csexample\00.console\Classes\Polymorphism\obj\Debug\net6.0\Polymorphism.AssemblyInfo.cs
+C:\works\works.c#\csexample\00.console\Classes\Polymorphism\obj\Debug\net6.0\Polymorphism.csproj.CoreCompileInputs.cache
+C:\works\works.c#\csexample\00.console\Classes\Polymorphism\obj\Debug\net6.0\Polymorphism.dll
+C:\works\works.c#\csexample\00.console\Classes\Polymorphism\obj\Debug\net6.0\refint\Polymorphism.dll
+C:\works\works.c#\csexample\00.console\Classes\Polymorphism\obj\Debug\net6.0\Polymorphism.pdb
+C:\works\works.c#\csexample\00.console\Classes\Polymorphism\obj\Debug\net6.0\Polymorphism.genruntimeconfig.cache
+C:\works\works.c#\csexample\00.console\Classes\Polymorphism\obj\Debug\net6.0\ref\Polymorphism.dll

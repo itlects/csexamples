@@ -1,0 +1,15 @@
+C:\works\works.c#\csexample\00.console\Classes\Properties\bin\Debug\net6.0\Properties.exe
+C:\works\works.c#\csexample\00.console\Classes\Properties\bin\Debug\net6.0\Properties.deps.json
+C:\works\works.c#\csexample\00.console\Classes\Properties\bin\Debug\net6.0\Properties.runtimeconfig.json
+C:\works\works.c#\csexample\00.console\Classes\Properties\bin\Debug\net6.0\Properties.dll
+C:\works\works.c#\csexample\00.console\Classes\Properties\bin\Debug\net6.0\Properties.pdb
+C:\works\works.c#\csexample\00.console\Classes\Properties\obj\Debug\net6.0\Properties.csproj.AssemblyReference.cache
+C:\works\works.c#\csexample\00.console\Classes\Properties\obj\Debug\net6.0\Properties.GeneratedMSBuildEditorConfig.editorconfig
+C:\works\works.c#\csexample\00.console\Classes\Properties\obj\Debug\net6.0\Properties.AssemblyInfoInputs.cache
+C:\works\works.c#\csexample\00.console\Classes\Properties\obj\Debug\net6.0\Properties.AssemblyInfo.cs
+C:\works\works.c#\csexample\00.console\Classes\Properties\obj\Debug\net6.0\Properties.csproj.CoreCompileInputs.cache
+C:\works\works.c#\csexample\00.console\Classes\Properties\obj\Debug\net6.0\Properties.dll
+C:\works\works.c#\csexample\00.console\Classes\Properties\obj\Debug\net6.0\refint\Properties.dll
+C:\works\works.c#\csexample\00.console\Classes\Properties\obj\Debug\net6.0\Properties.pdb
+C:\works\works.c#\csexample\00.console\Classes\Properties\obj\Debug\net6.0\Properties.genruntimeconfig.cache
+C:\works\works.c#\csexample\00.console\Classes\Properties\obj\Debug\net6.0\ref\Properties.dll
