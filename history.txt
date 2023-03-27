@@ -2,3 +2,5 @@
 .\works.c#\01.tcpip\01.ex1.serverclient
 https://unininu.tistory.com/475
 
++ File demo
+https://learn.microsoft.com/ko-kr/troubleshoot/developer/visualstudio/csharp/language-compilers/read-write-text-file

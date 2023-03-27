@@ -2,7 +2,7 @@
 // Console.WriteLine("Hello, World!");
 using System;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace Classes // Note: actual namespace depends on the project name.
 {
     class Person
     {

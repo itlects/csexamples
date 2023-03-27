@@ -1,0 +1,15 @@
+C:\works\works.c#\csexample\00.console\Classes\Interface\bin\Debug\net6.0\Interface.exe
+C:\works\works.c#\csexample\00.console\Classes\Interface\bin\Debug\net6.0\Interface.deps.json
+C:\works\works.c#\csexample\00.console\Classes\Interface\bin\Debug\net6.0\Interface.runtimeconfig.json
+C:\works\works.c#\csexample\00.console\Classes\Interface\bin\Debug\net6.0\Interface.dll
+C:\works\works.c#\csexample\00.console\Classes\Interface\bin\Debug\net6.0\Interface.pdb
+C:\works\works.c#\csexample\00.console\Classes\Interface\obj\Debug\net6.0\Interface.csproj.AssemblyReference.cache
+C:\works\works.c#\csexample\00.console\Classes\Interface\obj\Debug\net6.0\Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\works\works.c#\csexample\00.console\Classes\Interface\obj\Debug\net6.0\Interface.AssemblyInfoInputs.cache
+C:\works\works.c#\csexample\00.console\Classes\Interface\obj\Debug\net6.0\Interface.AssemblyInfo.cs
+C:\works\works.c#\csexample\00.console\Classes\Interface\obj\Debug\net6.0\Interface.csproj.CoreCompileInputs.cache
+C:\works\works.c#\csexample\00.console\Classes\Interface\obj\Debug\net6.0\Interface.dll
+C:\works\works.c#\csexample\00.console\Classes\Interface\obj\Debug\net6.0\refint\Interface.dll
+C:\works\works.c#\csexample\00.console\Classes\Interface\obj\Debug\net6.0\Interface.pdb
+C:\works\works.c#\csexample\00.console\Classes\Interface\obj\Debug\net6.0\Interface.genruntimeconfig.cache
+C:\works\works.c#\csexample\00.console\Classes\Interface\obj\Debug\net6.0\ref\Interface.dll
