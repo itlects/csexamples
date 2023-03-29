@@ -1,0 +1,15 @@
+C:\works\works.c#\csexample\00.console\Basic\ByteTest\bin\Debug\net6.0\ByteTest.exe
+C:\works\works.c#\csexample\00.console\Basic\ByteTest\bin\Debug\net6.0\ByteTest.deps.json
+C:\works\works.c#\csexample\00.console\Basic\ByteTest\bin\Debug\net6.0\ByteTest.runtimeconfig.json
+C:\works\works.c#\csexample\00.console\Basic\ByteTest\bin\Debug\net6.0\ByteTest.dll
+C:\works\works.c#\csexample\00.console\Basic\ByteTest\bin\Debug\net6.0\ByteTest.pdb
+C:\works\works.c#\csexample\00.console\Basic\ByteTest\obj\Debug\net6.0\ByteTest.csproj.AssemblyReference.cache
+C:\works\works.c#\csexample\00.console\Basic\ByteTest\obj\Debug\net6.0\ByteTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\works\works.c#\csexample\00.console\Basic\ByteTest\obj\Debug\net6.0\ByteTest.AssemblyInfoInputs.cache
+C:\works\works.c#\csexample\00.console\Basic\ByteTest\obj\Debug\net6.0\ByteTest.AssemblyInfo.cs
+C:\works\works.c#\csexample\00.console\Basic\ByteTest\obj\Debug\net6.0\ByteTest.csproj.CoreCompileInputs.cache
+C:\works\works.c#\csexample\00.console\Basic\ByteTest\obj\Debug\net6.0\ByteTest.dll
+C:\works\works.c#\csexample\00.console\Basic\ByteTest\obj\Debug\net6.0\refint\ByteTest.dll
+C:\works\works.c#\csexample\00.console\Basic\ByteTest\obj\Debug\net6.0\ByteTest.pdb
+C:\works\works.c#\csexample\00.console\Basic\ByteTest\obj\Debug\net6.0\ByteTest.genruntimeconfig.cache
+C:\works\works.c#\csexample\00.console\Basic\ByteTest\obj\Debug\net6.0\ref\ByteTest.dll

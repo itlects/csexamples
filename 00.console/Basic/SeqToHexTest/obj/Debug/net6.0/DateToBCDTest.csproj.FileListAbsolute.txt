@@ -1,0 +1,15 @@
+C:\works\works.c#\csexample\00.console\Basic\DateToBCDTest\bin\Debug\net6.0\DateToBCDTest.exe
+C:\works\works.c#\csexample\00.console\Basic\DateToBCDTest\bin\Debug\net6.0\DateToBCDTest.deps.json
+C:\works\works.c#\csexample\00.console\Basic\DateToBCDTest\bin\Debug\net6.0\DateToBCDTest.runtimeconfig.json
+C:\works\works.c#\csexample\00.console\Basic\DateToBCDTest\bin\Debug\net6.0\DateToBCDTest.dll
+C:\works\works.c#\csexample\00.console\Basic\DateToBCDTest\bin\Debug\net6.0\DateToBCDTest.pdb
+C:\works\works.c#\csexample\00.console\Basic\DateToBCDTest\obj\Debug\net6.0\DateToBCDTest.csproj.AssemblyReference.cache
+C:\works\works.c#\csexample\00.console\Basic\DateToBCDTest\obj\Debug\net6.0\DateToBCDTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\works\works.c#\csexample\00.console\Basic\DateToBCDTest\obj\Debug\net6.0\DateToBCDTest.AssemblyInfoInputs.cache
+C:\works\works.c#\csexample\00.console\Basic\DateToBCDTest\obj\Debug\net6.0\DateToBCDTest.AssemblyInfo.cs
+C:\works\works.c#\csexample\00.console\Basic\DateToBCDTest\obj\Debug\net6.0\DateToBCDTest.csproj.CoreCompileInputs.cache
+C:\works\works.c#\csexample\00.console\Basic\DateToBCDTest\obj\Debug\net6.0\DateToBCDTest.dll
+C:\works\works.c#\csexample\00.console\Basic\DateToBCDTest\obj\Debug\net6.0\refint\DateToBCDTest.dll
+C:\works\works.c#\csexample\00.console\Basic\DateToBCDTest\obj\Debug\net6.0\DateToBCDTest.pdb
+C:\works\works.c#\csexample\00.console\Basic\DateToBCDTest\obj\Debug\net6.0\DateToBCDTest.genruntimeconfig.cache
+C:\works\works.c#\csexample\00.console\Basic\DateToBCDTest\obj\Debug\net6.0\ref\DateToBCDTest.dll

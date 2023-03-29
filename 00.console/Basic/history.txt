@@ -1,0 +1,12 @@
+
+# ascii table 
+https://shaeod.tistory.com/228
+
+# datetime
+https://myoung-min.tistory.com/40
+https://mirwebma.tistory.com/136
+https://www.tutorialsteacher.com/articles/convert-date-to-string-in-csharp
+https://wwwi.tistory.com/327
+
+# date -> bcd 변환
+https://onepager.tistory.com/48
