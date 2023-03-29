@@ -1,6 +1,16 @@
 + c# winform, tcpip 통신
 .\works.c#\01.tcpip\01.ex1.serverclient
 https://unininu.tistory.com/475
+https://learn.microsoft.com/ko-kr/dotnet/fundamentals/networking/sockets/socket-services
+https://blog.naver.com/aaaaa0940/80154520356
+https://ehpub.co.kr/tcp-echo-server-client-network-programming-cs/
 
 + File demo
 https://learn.microsoft.com/ko-kr/troubleshoot/developer/visualstudio/csharp/language-compilers/read-write-text-file
+
++ ASCII 코드표
+https://shaeod.tistory.com/228
+
++ c# richtextbox
+https://www.c-sharpcorner.com/UploadFile/mahesh/richtextbox-in-C-Sharp/
+https://www.c-sharpcorner.com/forums/how-to-select-a-line-by-clicking-in-a-richtextbox
