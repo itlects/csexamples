@@ -1,0 +1,9 @@
+
++ EventTest : 
+ - button 클릭 이벤트 발생-> 메시지출력
+ - richTextBox 를사용한 화면 구현
+ - richTextBox 화면, 폰트 컬러 변경
+https://www.dotnetperls.com/richtextbox
+
++ ByteTest :
+ - 

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\works\\works.c#\\csexample\\00.console\\BasicWinForm\\WinFormsAppEventTest\\WinFormsAppEventTest\\WinFormsAppEventTest.csproj",
+      "projectUniqueName": "C:\\works\\works.c#\\csexample\\00.console\\BasicWinForm\\WinFormsAppTest\\WinFormsAppEventTest\\WinFormsAppEventTest.csproj",
       "projectName": "WinFormsAppEventTest",
-      "projectPath": "C:\\works\\works.c#\\csexample\\00.console\\BasicWinForm\\WinFormsAppEventTest\\WinFormsAppEventTest\\WinFormsAppEventTest.csproj",
+      "projectPath": "C:\\works\\works.c#\\csexample\\00.console\\BasicWinForm\\WinFormsAppTest\\WinFormsAppEventTest\\WinFormsAppEventTest.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\works\\works.c#\\csexample\\00.console\\BasicWinForm\\WinFormsAppEventTest\\WinFormsAppEventTest\\obj\\",
+      "outputPath": "C:\\works\\works.c#\\csexample\\00.console\\BasicWinForm\\WinFormsAppTest\\WinFormsAppEventTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

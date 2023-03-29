@@ -1,0 +1,17 @@
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\bin\Debug\net6.0-windows\WinFormsAppByteTest.exe
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\bin\Debug\net6.0-windows\WinFormsAppByteTest.deps.json
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\bin\Debug\net6.0-windows\WinFormsAppByteTest.runtimeconfig.json
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\bin\Debug\net6.0-windows\WinFormsAppByteTest.dll
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\bin\Debug\net6.0-windows\WinFormsAppByteTest.pdb
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\obj\Debug\net6.0-windows\WinFormsAppByteTest.csproj.AssemblyReference.cache
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\obj\Debug\net6.0-windows\WinFormsAppEventTest.Form1.resources
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\obj\Debug\net6.0-windows\WinFormsAppByteTest.csproj.GenerateResource.cache
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\obj\Debug\net6.0-windows\WinFormsAppByteTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\obj\Debug\net6.0-windows\WinFormsAppByteTest.AssemblyInfoInputs.cache
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\obj\Debug\net6.0-windows\WinFormsAppByteTest.AssemblyInfo.cs
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\obj\Debug\net6.0-windows\WinFormsAppByteTest.csproj.CoreCompileInputs.cache
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\obj\Debug\net6.0-windows\WinFormsAppByteTest.dll
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\obj\Debug\net6.0-windows\refint\WinFormsAppByteTest.dll
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\obj\Debug\net6.0-windows\WinFormsAppByteTest.pdb
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\obj\Debug\net6.0-windows\WinFormsAppByteTest.genruntimeconfig.cache
+C:\works\works.c#\csexample\00.console\BasicWinForm\WinFormsAppByteTest\WinFormsAppByteTest\obj\Debug\net6.0-windows\ref\WinFormsAppByteTest.dll
