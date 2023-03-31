@@ -47,7 +47,7 @@ namespace Basic // Note: actual namespace depends on the project name.
         {
 
             // 20230327160751(0x20, 0x23, 0x03, 0x27, 0x16, 0x07, 0x51, )
-            string dateTime = DateTime.Now.ToString("yyyyMMddHHmmss");
+            string dateTime = DateTime.Now.ToString("yyyyMMddHHmmss"); // 7 byte, byte 변환해서 전송
             Console.WriteLine("DateTime.Now : {0}", dateTime);
 
             Console.WriteLine("------ UseGetNumericValue");
@@ -55,6 +55,7 @@ namespace Basic // Note: actual namespace depends on the project name.
             {
                 ConsoleWriteline(v);
             }
+
 
             Console.WriteLine("------ StringToBCD");
 
