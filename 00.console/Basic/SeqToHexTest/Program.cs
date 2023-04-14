@@ -8,14 +8,68 @@ namespace Basic // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //-- test: ascii to char
+            //asciiToCharTest();
+            //asciiToCharTest2();
 
-            // DateTimeTest();
+            //-- test: datetime 객체의 사용
+            //DateTimeTest();
+            //consolewritelineTest();
 
             //-- protocol format test
-            DateToBCDTest();//날자 YYYYMMDD hhmmss 변환
+            // BCD표시: 2022년도 -> 0b0010 0b0000 0b0010 0b0010, 0x02 0x00 0x02 0x02
+            // => string, dec: 2022 hex: 02000202
+            //DateToBCDTest();//날자 YYYYMMDD hhmmss 변환
+
+            //--test: 문자열->byte[]배열, byte[]배열->문자열
+            //byte[] bytes = stringToByte("ABC123abc");
+            //string s1 = byteToString(bytes);
+            //Console.WriteLine(s1);
+
+
         }
 
+        private static void asciiToCharTest2()
+        {
+            string s1 = "abc123ABC";
+            byte[] ascii = stringToAscii(s1);
+            string s2 = null;
+            s2 = asciiToString(ascii);
+            Console.WriteLine(s2);
+        }
+
+        private static void asciiToCharTest()
+        {
+            byte[] ascii = Encoding.ASCII.GetBytes("abc123ABC");
+            foreach (byte b in ascii)
+            {
+                Console.Write(string.Format("0x{0:x} ", b));    // Ascii 
+                Console.WriteLine(((Char)b).ToString());            // Ascii To Char
+            }
+        }
+
+        private static void consolewritelineTest()
+        {
+            Console.WriteLine("Hello World!");
+
+            //-- 출력방식
+            int n1 = 3;
+            ConsoleWriteline(n1);
+
+            byte[] bytes = { 1, 2, 3 };
+            foreach (byte b in bytes)
+            {
+                ConsoleWriteline(b);
+            }
+
+
+            byte[] bytes2 = { 93, 94, 95 };
+            foreach (byte b in bytes2)
+            {
+                ConsoleWriteline(b);
+
+            }
+        }
         private static void DateTimeTest()
         {
             DateTime dt1;
@@ -56,14 +110,17 @@ namespace Basic // Note: actual namespace depends on the project name.
                 ConsoleWriteline(v);
             }
 
-            Console.WriteLine("------ StringToBCD");
+            Console.WriteLine("------ DatetimeStringToBCD");
 
             byte[] bcdByte = StringToBCD(dateTime);
             foreach (int v in StringToBCD(dateTime))
             {
                 ConsoleWriteline(v);
             }
-
+            foreach (ushort v in StringToBCD(dateTime))
+            {
+                ConsoleWriteline(v);
+            }
             Console.WriteLine("------ BCDToString");
             Console.WriteLine(BCDToString(bcdByte));
 
@@ -173,5 +230,51 @@ namespace Basic // Note: actual namespace depends on the project name.
         }
 
 
+        public static string ByteToHex(byte[] bytes)
+        {
+            string hex = BitConverter.ToString(bytes);
+            return hex.Replace("-", "");
+        }
+
+        // string to byte
+        public static byte[] stringToByte(string s)
+        {
+            //byte[] bytes;
+            //bytes = Encoding.Default.GetBytes(s);
+
+            // Convert a C# string to a byte array
+            byte[] bytes = Encoding.ASCII.GetBytes(s);
+            foreach (byte b in bytes)
+            {
+                Console.WriteLine("{0:X2} ", b);
+            }
+
+            return bytes;
+        }
+
+        public static string byteToString(byte[] bytes)
+        {
+            string s1 = Encoding.ASCII.GetString(bytes);
+            return s1;
+        }
+
+
+        public static byte[] stringToAscii(string s)
+        {
+            byte[] ascii = Encoding.ASCII.GetBytes(s);
+            return ascii;
+        }
+
+        public static string asciiToString(byte[] ascii)
+        {
+            string s1 = null;
+            StringBuilder sb = new StringBuilder();
+            foreach (byte b in ascii)
+            {
+                sb.Append(((Char)b).ToString());
+            }
+            s1 = sb.ToString();
+            return s1;
+        }
     }
 }

@@ -14,7 +14,7 @@ namespace Basic // Note: actual namespace depends on the project name.
             //ByteTest2();//한글ASCII -> byte 변환 출력 
             //ByteTest3(); //한글->hex 변환
 
-            //--date format test
+            //--date format test    
             //DateTimeTest();
             //DateTimeTest("2023/03/23 13:50:21");//날자 데이터 처리 
             
