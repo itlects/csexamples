@@ -27,6 +27,20 @@ namespace Basic // Note: actual namespace depends on the project name.
             //Console.WriteLine(s1);
 
 
+            //--test int to byte
+            int n1 = 123;
+            byte[] bytes = intToBytes(n1);
+            string s1 = null;
+            s1 = byteArrayToHexString(bytes);
+            Console.Write(s1+" ");
+            int n2 = hexStringToIntParse(s1);
+            Console.WriteLine(n2);
+        }
+
+        private static int hexStringToIntParse(string hex)
+        {
+            int n1 = int.Parse(hex, System.Globalization.NumberStyles.HexNumber);
+            return n1;
         }
 
         private static void asciiToCharTest2()
@@ -188,13 +202,13 @@ namespace Basic // Note: actual namespace depends on the project name.
         }
 
         //바이트배열-> 16진수 문자열 
-        public string byteArrayToHexString(byte[] convBytes)
+        public static string byteArrayToHexString(byte[] convBytes)
         {
             return BitConverter.ToString(convBytes).Replace("-", "");
         }
 
         //16진수 문자열 바이트배열 -> 문자열
-        public string byteArrayToString(byte[] srcBytes)
+        public static string byteArrayToString(byte[] srcBytes)
         {
             return Encoding.Default.GetString(srcBytes);
         }
@@ -275,6 +289,19 @@ namespace Basic // Note: actual namespace depends on the project name.
             }
             s1 = sb.ToString();
             return s1;
+        }
+
+
+        public static byte[] intToBytes(int i)
+        {
+            byte[] array = new byte[4];
+
+            array[3] = (byte)(i & 0xFF);
+            array[2] = (byte)((i >> 8) & 0xFF);
+            array[1] = (byte)((i >> 16) & 0xFF);
+            array[0] = (byte)((i >> 24) & 0xFF);
+
+            return array;
         }
     }
 }
