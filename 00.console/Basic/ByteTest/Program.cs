@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace Basic // Note: actual namespace depends on the project name.
@@ -19,7 +20,121 @@ namespace Basic // Note: actual namespace depends on the project name.
             //DateTimeTest("2023/03/23 13:50:21");//날자 데이터 처리 
             
             //-- protocol format test
-            DateToBCDTest();//날자 YYYYMMDD hhmmss 변환
+            //DateToBCDTest();//날자 YYYYMMDD hhmmss 변환
+
+            //byte2str();
+
+            //bytesPrint();
+            //bytesPrint2();
+            bytesPrint3();
+        }
+
+        private static void bytesPrint3()
+        {
+            ushort[] datas = { 0x1234, 0x0006, 0x0201 };
+            byte[] bytes = new byte[] { 0 };
+           
+            ushort reg = 0xFF;
+            
+            string msg = "";
+            for (int i = 0; i < datas.Length; i++)
+            {
+                byte msb = (byte)((datas[i] >> 8) & reg);
+                byte lsb = (byte)((datas[i] ) & reg);
+                Console.WriteLine("{0:X2} {1:X2} ", msb, lsb);
+                msg += string.Format("{0:X2} {1:X2} ", msb, lsb);
+                //bytes[k++] = temp[1];
+                //printBytes(temp);
+                //bytes[k++] = temp[0];
+            }
+            Console.WriteLine(msg);
+            //printBytes(bytes);
+            Console.ReadKey();
+        }
+        private static void bytesPrint2()
+        {
+            ushort[] datas = { 0x1234, 0x0006, 0x0201 };
+            byte[] bytes = new byte[] { 0 };
+            int k = 0;
+
+            string msg = "";
+            for (int i = 0; i < datas.Length; i++)
+            {
+                byte[] temp = BitConverter.GetBytes(datas[i]);
+                byte msb = temp[1];
+                byte lsb = temp[0];
+                Console.WriteLine("{0:X2} {1:X2} ", msb,lsb);
+                msg += string.Format("{0:X2} {1:X2} ", msb, lsb);
+                //bytes[k++] = temp[1];
+                //printBytes(temp);
+                //bytes[k++] = temp[0];
+            }
+            Console.WriteLine(msg);
+            //printBytes(bytes);
+            Console.ReadKey();
+        }
+
+        private static void bytesPrint()
+        {
+            byte[] datas = { 0x12, 0x34, 0x00, 0x06 };
+
+            string msg = "";
+            string b = "";
+            foreach(byte d in datas)
+            {
+                b=string.Format("{0:X2} ", d);
+                msg+=b;
+            }
+            Console.WriteLine("datas:["+datas.Length+"]["+msg+"]");
+            
+            Console.ReadKey();
+        }
+
+        private static void byte2str()
+        {
+            byte[] bytes= { 0x02, 0x10, 0x00, 0xC8 };
+
+            printBytes(bytes);
+            printByte(bytes[1]);
+
+
+            byte bn1 = bytes[0];
+
+            //int n1 = Int32.Parse(bn1,System.Globalization.NumberStyles.HexNumber);
+            int v = BitConverter.ToInt32(bytes, 0);
+            
+            Console.WriteLine($"{v} {bn1}");
+
+            string s1 = string.Format("{0:X2} {1}", bn1, bn1);
+            Console.WriteLine(s1);
+            s1 = string.Format("{0}", bn1);
+            int n1 = Convert.ToInt32(s1);
+            byte bn2 = Convert.ToByte(n1);
+
+            Console.WriteLine("{0}", n1 * 1000);
+            Console.WriteLine(string.Format("{0:X2}", bn2));
+
+            Console.ReadKey();
+
+        }
+
+        private static void printByte(byte v)
+        {
+            string s1 = "";
+            s1 = string.Format("{0:X2}", v);
+            Console.WriteLine(s1);
+        }
+
+        private static void printBytes(byte[] bytes)
+        {
+            string s1 = "";
+            string b = "";
+            for(int i=0; i<bytes.Length; i++)
+            {
+                b = string.Format("{0:X2} ", bytes[i]);
+                s1 += b;
+            }
+            Console.WriteLine(s1);
         }
 
         private static void DateTimeTest()
@@ -67,7 +182,7 @@ namespace Basic // Note: actual namespace depends on the project name.
             byte[] bcdByte = StringToBCD(dateTime);
             foreach (int v in StringToBCD(dateTime))
             {
-                Console.WriteLine(v);
+                Console.WriteLine("{0:X2}[{1}]" , v, v);
             }
 
             Console.WriteLine("------ BCDToString");
