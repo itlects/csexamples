@@ -18,7 +18,7 @@ namespace Basic // Note: actual namespace depends on the project name.
             //--date format test    
             //DateTimeTest();
             //DateTimeTest("2023/03/23 13:50:21");//날자 데이터 처리 
-            
+
             //-- protocol format test
             //DateToBCDTest();//날자 YYYYMMDD hhmmss 변환
 
@@ -26,29 +26,137 @@ namespace Basic // Note: actual namespace depends on the project name.
 
             //bytesPrint();
             //bytesPrint2();
-            bytesPrint3();
+            //bytesPrint3();
+            //bytesTest();
+
+            //int2byte();
+
+            ushort2bytes();
+            //ushort2bytes2(); //using List
+
+        }
+
+        private static void ushort2bytes2()
+        {
+            ushort[] datas = { 0x1234, 0x0006, 0x0201 };
+            byte[] bytes = new byte[] { 0 };
+            bytes = new byte[datas.Length * 2];
+
+            List<byte> packet = new List<byte>();
+
+            bytes = printUshort2Bytes(datas);
+
+            //Console.WriteLine(msg);
+            printBytes(bytes);
+            Console.ReadKey();
+        }
+
+        private static void ushort2bytes()
+        {
+            ushort[] datas = { 0x1234, 0x0006, 0x0201 };
+            byte[] bytes = new byte[] { 0 };
+            bytes = new byte[datas.Length*2];
+
+            bytes = printUshort2Bytes(datas);
+            
+            //Console.WriteLine(msg);
+            printBytes(bytes);
+            Console.ReadKey();
+        }
+
+        private static List<byte> getUshort2bytes(ushort[] datas)
+        {
+            List<byte> packet = new List<byte>();
+
+            byte[] bytes = new byte[] { 0 };
+
+            ushort reg = 0xFF; 
+
+            string msg = "";
+            int k = 0;
+            for (int i = 0; i < datas.Length; i++)
+            {
+                byte msb = (byte)((datas[i] >> 8) & reg);
+                byte lsb = (byte)((datas[i]) & reg);
+                //   Console.WriteLine("{0:X2} {1:X2} ", msb, lsb);
+                msg += string.Format("{0:X2} {1:X2} ", msb, lsb);
+                bytes[k++] = msb;
+                //printBytes(temp);
+                bytes[k++] = lsb;
+            }
+
+            return packet;
+        }
+
+        private static byte[] printUshort2Bytes(ushort[] datas)
+        {
+            byte[] bytes = new byte[] { 0 };
+            bytes = new byte[datas.Length*2];
+
+            ushort reg = 0xFF;
+
+            string msg = "";
+            int k = 0;
+            for (int i = 0; i < datas.Length; i++)
+            {
+                byte msb = (byte)((datas[i] >> 8) & reg);
+                byte lsb = (byte)((datas[i]) & reg);
+             //   Console.WriteLine("{0:X2} {1:X2} ", msb, lsb);
+                msg += string.Format("{0:X2} {1:X2} ", msb, lsb);
+                bytes[k++] = msb;
+                //printBytes(temp);
+                bytes[k++] = lsb;
+            }
+
+            return bytes;
+        }
+
+        private static void int2byte()
+        {
+            int n1 = 10 * 2;
+            byte bn1 = Convert.ToByte(n1);
+
+            string s1 = string.Format("{0:X2}", bn1);
+            Console.WriteLine(s1);
+        }
+
+        private static void bytesTest()
+        {
+            ushort[] datas = { 0x000E, 0x0006, 0x00CE, 0x0000, 0x0000, 0x0000, 0x07D0, 0x0000, 0x0000 };
+
+            List<ushort> words = new List<ushort>();
+            for (int i = 0; i < datas.Length; i++)
+            {
+                words.Add(datas[i]);
+            }
+            //Console.WriteLine(words.ToString);
+            Console.WriteLine(words.ToArray()[1]);
+
+      
         }
 
         private static void bytesPrint3()
         {
             ushort[] datas = { 0x1234, 0x0006, 0x0201 };
             byte[] bytes = new byte[] { 0 };
-           
+            bytes = new byte[datas.Length*2];
+
             ushort reg = 0xFF;
             
             string msg = "";
+            int k = 0;
             for (int i = 0; i < datas.Length; i++)
             {
                 byte msb = (byte)((datas[i] >> 8) & reg);
                 byte lsb = (byte)((datas[i] ) & reg);
                 Console.WriteLine("{0:X2} {1:X2} ", msb, lsb);
                 msg += string.Format("{0:X2} {1:X2} ", msb, lsb);
-                //bytes[k++] = temp[1];
+                bytes[k++] = msb;
                 //printBytes(temp);
-                //bytes[k++] = temp[0];
+                bytes[k++] = lsb;
             }
-            Console.WriteLine(msg);
-            //printBytes(bytes);
+            //Console.WriteLine(msg);
+            printBytes(bytes);
             Console.ReadKey();
         }
         private static void bytesPrint2()
