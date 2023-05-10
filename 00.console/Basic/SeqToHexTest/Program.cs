@@ -26,7 +26,7 @@ namespace Basic // Note: actual namespace depends on the project name.
             //string s1 = byteToString(bytes);
             //Console.WriteLine(s1);
 
-
+            Console.WriteLine("--------start---------");
             //--test int to byte
             int n1 = 123;
             byte[] bytes = intToBytes(n1);
@@ -35,6 +35,7 @@ namespace Basic // Note: actual namespace depends on the project name.
             Console.Write(s1+" ");
             int n2 = hexStringToIntParse(s1);
             Console.WriteLine(n2);
+            Console.WriteLine("--------end---------");
         }
 
         private static int hexStringToIntParse(string hex)
