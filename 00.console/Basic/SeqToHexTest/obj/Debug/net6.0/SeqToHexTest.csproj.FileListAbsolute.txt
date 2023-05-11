@@ -1,0 +1,15 @@
+C:\works\git\csexamples\00.console\Basic\SeqToHexTest\bin\Debug\net6.0\SeqToHexTest.exe
+C:\works\git\csexamples\00.console\Basic\SeqToHexTest\bin\Debug\net6.0\SeqToHexTest.deps.json
+C:\works\git\csexamples\00.console\Basic\SeqToHexTest\bin\Debug\net6.0\SeqToHexTest.runtimeconfig.json
+C:\works\git\csexamples\00.console\Basic\SeqToHexTest\bin\Debug\net6.0\SeqToHexTest.dll
+C:\works\git\csexamples\00.console\Basic\SeqToHexTest\bin\Debug\net6.0\SeqToHexTest.pdb
+C:\works\git\csexamples\00.console\Basic\SeqToHexTest\obj\Debug\net6.0\SeqToHexTest.csproj.AssemblyReference.cache
+C:\works\git\csexamples\00.console\Basic\SeqToHexTest\obj\Debug\net6.0\SeqToHexTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\works\git\csexamples\00.console\Basic\SeqToHexTest\obj\Debug\net6.0\SeqToHexTest.AssemblyInfoInputs.cache
+C:\works\git\csexamples\00.console\Basic\SeqToHexTest\obj\Debug\net6.0\SeqToHexTest.AssemblyInfo.cs
+C:\works\git\csexamples\00.console\Basic\SeqToHexTest\obj\Debug\net6.0\SeqToHexTest.csproj.CoreCompileInputs.cache
+C:\works\git\csexamples\00.console\Basic\SeqToHexTest\obj\Debug\net6.0\SeqToHexTest.dll
+C:\works\git\csexamples\00.console\Basic\SeqToHexTest\obj\Debug\net6.0\refint\SeqToHexTest.dll
+C:\works\git\csexamples\00.console\Basic\SeqToHexTest\obj\Debug\net6.0\SeqToHexTest.pdb
+C:\works\git\csexamples\00.console\Basic\SeqToHexTest\obj\Debug\net6.0\SeqToHexTest.genruntimeconfig.cache
+C:\works\git\csexamples\00.console\Basic\SeqToHexTest\obj\Debug\net6.0\ref\SeqToHexTest.dll

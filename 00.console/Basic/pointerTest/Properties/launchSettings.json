@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "pointerTest": {
+      "commandName": "Project",
+      "commandLineArgs": "/unsave"
+    }
+  }
+}

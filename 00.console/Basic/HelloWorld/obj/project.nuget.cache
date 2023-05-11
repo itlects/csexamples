@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BZ/b5SRwRs0nXZNJlQ9WQFRdWj1x2XXofqHRhTmlLSzhsI1LlPia8L36G4vkfI/Cff4fYXJSXTHrbxcFlfWCmA==",
+  "dgSpecHash": "dRSOBOasIHCiWEYO343HqH4/2HMNqdJKyE5twNFGOyLkccqeD418h0xMttFA/VtfXd4XT4XwQWlK4NkrNF6XoA==",
   "success": true,
-  "projectFilePath": "C:\\works\\works.c#\\csexample\\00.console\\Basic\\HelloWorld\\HelloWorld.csproj",
+  "projectFilePath": "C:\\works\\git\\csexamples\\00.console\\Basic\\HelloWorld\\HelloWorld.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

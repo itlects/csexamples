@@ -1,0 +1,15 @@
+C:\works\git\csexamples\00.console\Basic\pointerTest\obj\Debug\net6.0\pointerTest.csproj.AssemblyReference.cache
+C:\works\git\csexamples\00.console\Basic\pointerTest\obj\Debug\net6.0\pointerTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\works\git\csexamples\00.console\Basic\pointerTest\obj\Debug\net6.0\pointerTest.AssemblyInfoInputs.cache
+C:\works\git\csexamples\00.console\Basic\pointerTest\obj\Debug\net6.0\pointerTest.AssemblyInfo.cs
+C:\works\git\csexamples\00.console\Basic\pointerTest\obj\Debug\net6.0\pointerTest.csproj.CoreCompileInputs.cache
+C:\works\git\csexamples\00.console\Basic\pointerTest\bin\Debug\net6.0\pointerTest.exe
+C:\works\git\csexamples\00.console\Basic\pointerTest\bin\Debug\net6.0\pointerTest.deps.json
+C:\works\git\csexamples\00.console\Basic\pointerTest\bin\Debug\net6.0\pointerTest.runtimeconfig.json
+C:\works\git\csexamples\00.console\Basic\pointerTest\bin\Debug\net6.0\pointerTest.dll
+C:\works\git\csexamples\00.console\Basic\pointerTest\bin\Debug\net6.0\pointerTest.pdb
+C:\works\git\csexamples\00.console\Basic\pointerTest\obj\Debug\net6.0\pointerTest.dll
+C:\works\git\csexamples\00.console\Basic\pointerTest\obj\Debug\net6.0\refint\pointerTest.dll
+C:\works\git\csexamples\00.console\Basic\pointerTest\obj\Debug\net6.0\pointerTest.pdb
+C:\works\git\csexamples\00.console\Basic\pointerTest\obj\Debug\net6.0\pointerTest.genruntimeconfig.cache
+C:\works\git\csexamples\00.console\Basic\pointerTest\obj\Debug\net6.0\ref\pointerTest.dll

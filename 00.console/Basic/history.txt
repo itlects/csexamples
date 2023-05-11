@@ -10,3 +10,10 @@ https://wwwi.tistory.com/327
 
 # date -> bcd 변환
 https://onepager.tistory.com/48
+
+# pointerTest
+https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/pointer-related-operators
+https://www.tutorialspoint.com/how-to-compile-unsafe-code-in-chash
+https://bm4904.tistory.com/21
+
+

@@ -1,0 +1,15 @@
+C:\works\git\csexamples\00.console\Basic\StringTest\bin\Debug\net6.0\StringTest.exe
+C:\works\git\csexamples\00.console\Basic\StringTest\bin\Debug\net6.0\StringTest.deps.json
+C:\works\git\csexamples\00.console\Basic\StringTest\bin\Debug\net6.0\StringTest.runtimeconfig.json
+C:\works\git\csexamples\00.console\Basic\StringTest\bin\Debug\net6.0\StringTest.dll
+C:\works\git\csexamples\00.console\Basic\StringTest\bin\Debug\net6.0\StringTest.pdb
+C:\works\git\csexamples\00.console\Basic\StringTest\obj\Debug\net6.0\StringTest.csproj.AssemblyReference.cache
+C:\works\git\csexamples\00.console\Basic\StringTest\obj\Debug\net6.0\StringTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\works\git\csexamples\00.console\Basic\StringTest\obj\Debug\net6.0\StringTest.AssemblyInfoInputs.cache
+C:\works\git\csexamples\00.console\Basic\StringTest\obj\Debug\net6.0\StringTest.AssemblyInfo.cs
+C:\works\git\csexamples\00.console\Basic\StringTest\obj\Debug\net6.0\StringTest.csproj.CoreCompileInputs.cache
+C:\works\git\csexamples\00.console\Basic\StringTest\obj\Debug\net6.0\StringTest.dll
+C:\works\git\csexamples\00.console\Basic\StringTest\obj\Debug\net6.0\refint\StringTest.dll
+C:\works\git\csexamples\00.console\Basic\StringTest\obj\Debug\net6.0\StringTest.pdb
+C:\works\git\csexamples\00.console\Basic\StringTest\obj\Debug\net6.0\StringTest.genruntimeconfig.cache
+C:\works\git\csexamples\00.console\Basic\StringTest\obj\Debug\net6.0\ref\StringTest.dll

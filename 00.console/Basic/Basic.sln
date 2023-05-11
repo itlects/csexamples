@@ -5,13 +5,26 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{1FEDE3D3-28A9-46C9-900D-2B47B6BB6F66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteTest", "ByteTest\ByteTest.csproj", "{5A52AD9C-447A-44A8-93E3-E0DE3C9723F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ByteTest", "ByteTest\ByteTest.csproj", "{5A52AD9C-447A-44A8-93E3-E0DE3C9723F1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateToBCDTest", "DateToBCDTest\DateToBCDTest.csproj", "{E0A989FF-F43A-4640-B492-E038292602D7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeqToHexTest", "SeqToHexTest\SeqToHexTest.csproj", "{AC722C9A-87DA-4E36-A560-6DD280B14FCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringToHex", "StringToHex\StringToHex.csproj", "{C1611DDE-AA4E-4D19-A25D-F6BFB8C742F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringToHex", "StringToHex\StringToHex.csproj", "{C1611DDE-AA4E-4D19-A25D-F6BFB8C742F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{47185AB5-4418-4DDD-86DC-99966194DCCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitTest", "BitTest\BitTest.csproj", "{7628DCDA-FA6C-460D-8E8D-2C2B95EC4640}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BitCalc", "BitCalc", "{B72D0D02-E896-42B0-90E1-7D4D0DF88D3A}"
+	ProjectSection(SolutionItems) = preProject
+		BitCalc.cs = BitCalc.cs
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringTest", "StringTest\StringTest.csproj", "{7F7B0CB9-81E5-4C6C-B20F-ACAE448737E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pointerTest", "pointerTest\pointerTest.csproj", "{0FAA9025-4F15-41EC-83F5-AD94E624497A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +52,18 @@ Global
 		{C1611DDE-AA4E-4D19-A25D-F6BFB8C742F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1611DDE-AA4E-4D19-A25D-F6BFB8C742F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1611DDE-AA4E-4D19-A25D-F6BFB8C742F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7628DCDA-FA6C-460D-8E8D-2C2B95EC4640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7628DCDA-FA6C-460D-8E8D-2C2B95EC4640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7628DCDA-FA6C-460D-8E8D-2C2B95EC4640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7628DCDA-FA6C-460D-8E8D-2C2B95EC4640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7B0CB9-81E5-4C6C-B20F-ACAE448737E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7B0CB9-81E5-4C6C-B20F-ACAE448737E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7B0CB9-81E5-4C6C-B20F-ACAE448737E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7B0CB9-81E5-4C6C-B20F-ACAE448737E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FAA9025-4F15-41EC-83F5-AD94E624497A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FAA9025-4F15-41EC-83F5-AD94E624497A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FAA9025-4F15-41EC-83F5-AD94E624497A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FAA9025-4F15-41EC-83F5-AD94E624497A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+C:\works\git\csexamples\00.console\Basic\BitTest\bin\Debug\net6.0\BitTest.exe
+C:\works\git\csexamples\00.console\Basic\BitTest\bin\Debug\net6.0\BitTest.deps.json
+C:\works\git\csexamples\00.console\Basic\BitTest\bin\Debug\net6.0\BitTest.runtimeconfig.json
+C:\works\git\csexamples\00.console\Basic\BitTest\bin\Debug\net6.0\BitTest.dll
+C:\works\git\csexamples\00.console\Basic\BitTest\bin\Debug\net6.0\BitTest.pdb
+C:\works\git\csexamples\00.console\Basic\BitTest\obj\Debug\net6.0\BitTest.csproj.AssemblyReference.cache
+C:\works\git\csexamples\00.console\Basic\BitTest\obj\Debug\net6.0\BitTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\works\git\csexamples\00.console\Basic\BitTest\obj\Debug\net6.0\BitTest.AssemblyInfoInputs.cache
+C:\works\git\csexamples\00.console\Basic\BitTest\obj\Debug\net6.0\BitTest.AssemblyInfo.cs
+C:\works\git\csexamples\00.console\Basic\BitTest\obj\Debug\net6.0\BitTest.csproj.CoreCompileInputs.cache
+C:\works\git\csexamples\00.console\Basic\BitTest\obj\Debug\net6.0\BitTest.dll
+C:\works\git\csexamples\00.console\Basic\BitTest\obj\Debug\net6.0\refint\BitTest.dll
+C:\works\git\csexamples\00.console\Basic\BitTest\obj\Debug\net6.0\BitTest.pdb
+C:\works\git\csexamples\00.console\Basic\BitTest\obj\Debug\net6.0\BitTest.genruntimeconfig.cache
+C:\works\git\csexamples\00.console\Basic\BitTest\obj\Debug\net6.0\ref\BitTest.dll
