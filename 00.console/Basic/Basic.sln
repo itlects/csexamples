@@ -24,7 +24,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BitCalc", "BitCalc", "{B72D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringTest", "StringTest\StringTest.csproj", "{7F7B0CB9-81E5-4C6C-B20F-ACAE448737E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pointerTest", "pointerTest\pointerTest.csproj", "{0FAA9025-4F15-41EC-83F5-AD94E624497A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pointerTest", "pointerTest\pointerTest.csproj", "{0FAA9025-4F15-41EC-83F5-AD94E624497A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListTest", "ListTest\ListTest.csproj", "{137F7F9A-BAE1-499C-A931-9FB689461C14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -64,6 +66,10 @@ Global
 		{0FAA9025-4F15-41EC-83F5-AD94E624497A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FAA9025-4F15-41EC-83F5-AD94E624497A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FAA9025-4F15-41EC-83F5-AD94E624497A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{137F7F9A-BAE1-499C-A931-9FB689461C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137F7F9A-BAE1-499C-A931-9FB689461C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137F7F9A-BAE1-499C-A931-9FB689461C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137F7F9A-BAE1-499C-A931-9FB689461C14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

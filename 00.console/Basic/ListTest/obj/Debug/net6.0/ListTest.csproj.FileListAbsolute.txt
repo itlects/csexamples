@@ -1,0 +1,15 @@
+C:\works\git\csexamples\00.console\Basic\ListTest\bin\Debug\net6.0\ListTest.exe
+C:\works\git\csexamples\00.console\Basic\ListTest\bin\Debug\net6.0\ListTest.deps.json
+C:\works\git\csexamples\00.console\Basic\ListTest\bin\Debug\net6.0\ListTest.runtimeconfig.json
+C:\works\git\csexamples\00.console\Basic\ListTest\bin\Debug\net6.0\ListTest.dll
+C:\works\git\csexamples\00.console\Basic\ListTest\bin\Debug\net6.0\ListTest.pdb
+C:\works\git\csexamples\00.console\Basic\ListTest\obj\Debug\net6.0\ListTest.csproj.AssemblyReference.cache
+C:\works\git\csexamples\00.console\Basic\ListTest\obj\Debug\net6.0\ListTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\works\git\csexamples\00.console\Basic\ListTest\obj\Debug\net6.0\ListTest.AssemblyInfoInputs.cache
+C:\works\git\csexamples\00.console\Basic\ListTest\obj\Debug\net6.0\ListTest.AssemblyInfo.cs
+C:\works\git\csexamples\00.console\Basic\ListTest\obj\Debug\net6.0\ListTest.csproj.CoreCompileInputs.cache
+C:\works\git\csexamples\00.console\Basic\ListTest\obj\Debug\net6.0\ListTest.dll
+C:\works\git\csexamples\00.console\Basic\ListTest\obj\Debug\net6.0\refint\ListTest.dll
+C:\works\git\csexamples\00.console\Basic\ListTest\obj\Debug\net6.0\ListTest.pdb
+C:\works\git\csexamples\00.console\Basic\ListTest\obj\Debug\net6.0\ListTest.genruntimeconfig.cache
+C:\works\git\csexamples\00.console\Basic\ListTest\obj\Debug\net6.0\ref\ListTest.dll
