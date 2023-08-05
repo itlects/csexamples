@@ -1,3 +1,18 @@
++ FormClosing event handler 등록
+  - this.FormClosing += new FormClosingEventHandler(Form2Closing);
+
+  https://miuna3.tistory.com/86
+  https://afsdzvcx123.tistory.com/entry/C-윈폼-윈폼-폼-닫기-이벤트-Form-Closed-Event-선언하는-방법
+  https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=rin1071&logNo=150029165137
+
++ Modal, Modaless
+  f2.ShowDialog(); //-- modal
+  f2.Show()  //-- modaless
+  https://greensul.tistory.com/37
+
++ WinFormsParamAppTest
+- form 사이의 데이터 전송방법
+  https://youtu.be/7R5wp6a6xnA
 
 + EventTest : 
  - button 클릭 이벤트 발생-> 메시지출력
@@ -7,3 +22,4 @@ https://www.dotnetperls.com/richtextbox
 
 + ByteTest :
  - 
+
