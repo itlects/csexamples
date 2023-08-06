@@ -1,0 +1,17 @@
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\bin\Debug\net6.0-windows\WinFormsAppLoadDynamicButtonArray.exe
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\bin\Debug\net6.0-windows\WinFormsAppLoadDynamicButtonArray.deps.json
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\bin\Debug\net6.0-windows\WinFormsAppLoadDynamicButtonArray.runtimeconfig.json
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\bin\Debug\net6.0-windows\WinFormsAppLoadDynamicButtonArray.dll
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\bin\Debug\net6.0-windows\ref\WinFormsAppLoadDynamicButtonArray.dll
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\bin\Debug\net6.0-windows\WinFormsAppLoadDynamicButtonArray.pdb
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\obj\Debug\net6.0-windows\WinFormsAppLoadDynamicButtonArray.csproj.AssemblyReference.cache
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\obj\Debug\net6.0-windows\WinFormsAppLoadDynamicButtonArray.Form1.resources
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\obj\Debug\net6.0-windows\WinFormsAppLoadDynamicButtonArray.csproj.GenerateResource.cache
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\obj\Debug\net6.0-windows\WinFormsAppLoadDynamicButtonArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\obj\Debug\net6.0-windows\WinFormsAppLoadDynamicButtonArray.AssemblyInfoInputs.cache
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\obj\Debug\net6.0-windows\WinFormsAppLoadDynamicButtonArray.AssemblyInfo.cs
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\obj\Debug\net6.0-windows\WinFormsAppLoadDynamicButtonArray.csproj.CoreCompileInputs.cache
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\obj\Debug\net6.0-windows\WinFormsAppLoadDynamicButtonArray.dll
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\obj\Debug\net6.0-windows\ref\WinFormsAppLoadDynamicButtonArray.dll
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\obj\Debug\net6.0-windows\WinFormsAppLoadDynamicButtonArray.pdb
+D:\works\git\csexamples\00.console\BasicWinForm\WinFormsParamAppTest\WinFormsAppLoadDynamicButtonArray\obj\Debug\net6.0-windows\WinFormsAppLoadDynamicButtonArray.genruntimeconfig.cache

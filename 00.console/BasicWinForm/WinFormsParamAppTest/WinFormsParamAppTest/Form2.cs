@@ -23,8 +23,8 @@ namespace WinFormsParamAppTest
 
         private void Form2Closing(object sender, FormClosingEventArgs e)
         {
+            this.Hide();
             f1.Show();
-
         }
 
         private bool xClicked = true;
