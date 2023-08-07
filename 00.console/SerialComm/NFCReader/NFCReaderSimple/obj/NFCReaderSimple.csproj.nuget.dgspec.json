@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\works\\works.c#\\csexample\\00.console\\SerialComm\\NFCReader\\NFCReaderSimple\\NFCReaderSimple.csproj": {}
+    "C:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReaderSimple\\NFCReaderSimple.csproj": {}
   },
   "projects": {
-    "C:\\works\\works.c#\\csexample\\00.console\\SerialComm\\NFCReader\\NFCReaderSimple\\NFCReaderSimple.csproj": {
+    "C:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReaderSimple\\NFCReaderSimple.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\works\\works.c#\\csexample\\00.console\\SerialComm\\NFCReader\\NFCReaderSimple\\NFCReaderSimple.csproj",
+        "projectUniqueName": "C:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReaderSimple\\NFCReaderSimple.csproj",
         "projectName": "NFCReaderSimple",
-        "projectPath": "C:\\works\\works.c#\\csexample\\00.console\\SerialComm\\NFCReader\\NFCReaderSimple\\NFCReaderSimple.csproj",
+        "projectPath": "C:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReaderSimple\\NFCReaderSimple.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\works\\works.c#\\csexample\\00.console\\SerialComm\\NFCReader\\NFCReaderSimple\\obj\\",
+        "outputPath": "C:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReaderSimple\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

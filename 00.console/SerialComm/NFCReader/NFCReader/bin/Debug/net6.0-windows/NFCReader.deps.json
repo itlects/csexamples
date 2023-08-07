@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "NFCReader2/1.0.0": {
+      "NFCReader/1.0.0": {
         "dependencies": {
           "System.IO.Ports": "6.0.0"
         },
         "runtime": {
-          "NFCReader2.dll": {}
+          "NFCReader.dll": {}
         }
       },
       "runtime.linux-arm.runtime.native.System.IO.Ports/6.0.0": {
@@ -96,7 +96,7 @@
     }
   },
   "libraries": {
-    "NFCReader2/1.0.0": {
+    "NFCReader/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

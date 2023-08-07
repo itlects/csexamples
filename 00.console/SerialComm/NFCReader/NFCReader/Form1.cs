@@ -26,7 +26,7 @@ namespace NFCReader2
                 cbPort.Items.Add(port);
             }
             cbPort.EndUpdate();
-            cbPort.SelectedItem = "COM10";
+            cbPort.SelectedItem = "COM9";
 
             cbBaudRate.Enabled = true;
            
@@ -143,7 +143,7 @@ namespace NFCReader2
                     recvStr += " " + buf[i].ToString("X2");
 
                 }
-                MessageBox.Show(recvStr);
+                //-- MessageBox.Show(recvStr);
                 text = recvStr;
             }
             //Thread thread = new Thread(new ThreadStart(textBox1Show));
@@ -154,7 +154,7 @@ namespace NFCReader2
                 this.Invoke(new mySetTextbox1Callback(textBox1Show), new object[]{
                     recvStr
                 });
-                Thread.Sleep(2000);
+                //-- Thread.Sleep(2000);
             }
         }
 

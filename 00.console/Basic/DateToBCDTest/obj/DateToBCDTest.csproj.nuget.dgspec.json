@@ -10,14 +10,14 @@
         "projectUniqueName": "C:\\works\\git\\csexamples\\00.console\\Basic\\DateToBCDTest\\DateToBCDTest.csproj",
         "projectName": "DateToBCDTest",
         "projectPath": "C:\\works\\git\\csexamples\\00.console\\Basic\\DateToBCDTest\\DateToBCDTest.csproj",
-        "packagesPath": "C:\\Users\\sh\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
         "outputPath": "C:\\works\\git\\csexamples\\00.console\\Basic\\DateToBCDTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

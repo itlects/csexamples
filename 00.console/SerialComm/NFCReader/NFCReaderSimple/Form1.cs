@@ -4,6 +4,7 @@ namespace NFCReaderSimple
 {
     public partial class Form1 : Form
     {
+        int n1 = 0;
         string text;
         SerialPort sp1;
         public Form1()
@@ -15,7 +16,7 @@ namespace NFCReaderSimple
         {
             sp1= new SerialPort();
 
-            sp1.PortName = "COM10";
+            sp1.PortName = "COM9";
             sp1.BaudRate = (int)38400;
             sp1.DataBits= 8;
             sp1.Parity = Parity.None;
@@ -41,10 +42,10 @@ namespace NFCReaderSimple
                 sp1.Read(buf, 0, recvSize);
                 for(int i=0; i < recvSize; i++)
                 {
-                    recvStr += " " + buf[i].ToString("X2");
-
+                    recvStr += buf[i].ToString("X2");
+                    recvStr += " ";
                 }
-                MessageBox.Show(recvStr);
+                //--- MessageBox.Show(recvStr);
                 text = recvStr;
             }
             //Thread thread = new Thread(new ThreadStart(textBox1Show));
@@ -61,6 +62,7 @@ namespace NFCReaderSimple
 
         private void textBox1Show(string text)
         {
+            this.textBox1.Text += "["+(n1++)+"]";
             this.textBox1.Text += text;
         }
     }

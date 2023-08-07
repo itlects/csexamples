@@ -26,7 +26,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringTest", "StringTest\St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pointerTest", "pointerTest\pointerTest.csproj", "{0FAA9025-4F15-41EC-83F5-AD94E624497A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListTest", "ListTest\ListTest.csproj", "{137F7F9A-BAE1-499C-A931-9FB689461C14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListTest", "ListTest\ListTest.csproj", "{137F7F9A-BAE1-499C-A931-9FB689461C14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CRC16", "CRC16", "{8BDBC88D-A042-457A-A7E9-CD01F781A23D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
