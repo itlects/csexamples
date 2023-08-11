@@ -15,14 +15,16 @@ namespace NFCReaderSimple
         private void Form1_Load(object sender, EventArgs e)
         {
             sp1= new SerialPort();
-
+            sp1.DataReceived += new SerialDataReceivedEventHandler(sp1_datareceived);
             sp1.PortName = "COM9";
             sp1.BaudRate = (int)38400;
             sp1.DataBits= 8;
             sp1.Parity = Parity.None;
             sp1.StopBits = StopBits.One;
+            sp1.ReadTimeout = (int)500;
+            sp1.WriteTimeout = (int)500;
             sp1.Open();
-            sp1.DataReceived += new SerialDataReceivedEventHandler(sp1_datareceived);
+            
 
         }
 
@@ -62,7 +64,8 @@ namespace NFCReaderSimple
 
         private void textBox1Show(string text)
         {
-            this.textBox1.Text += "["+(n1++)+"]";
+            
+            //this.textBox1.Text += "["+(n1++)+"]";
             this.textBox1.Text += text;
         }
     }

@@ -30,6 +30,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListTest", "ListTest\ListTe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CRC16", "CRC16", "{8BDBC88D-A042-457A-A7E9-CD01F781A23D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "substringTest", "substringTest\substringTest.csproj", "{C9A1B796-2562-43D4-BF5A-B8AF47A4B66A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +74,10 @@ Global
 		{137F7F9A-BAE1-499C-A931-9FB689461C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{137F7F9A-BAE1-499C-A931-9FB689461C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{137F7F9A-BAE1-499C-A931-9FB689461C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9A1B796-2562-43D4-BF5A-B8AF47A4B66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A1B796-2562-43D4-BF5A-B8AF47A4B66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A1B796-2562-43D4-BF5A-B8AF47A4B66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A1B796-2562-43D4-BF5A-B8AF47A4B66A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,6 +5,7 @@ namespace NFCReader2
 {
     public partial class Form1 : Form
     {
+        int cnt;
         string text;
         SerialPort sp;
         int[] baudRates = { 9600, 19200, 38400, 115200 };
@@ -160,6 +161,7 @@ namespace NFCReader2
 
         private void textBox1Show(string text)
         {
+            
             this.tbRead.Text += text;
         }
     }
