@@ -129,7 +129,7 @@ namespace NFCReaderRich
             {
                 this.richRecived.Text += Environment.NewLine;
                 //this.richRecived.Text += "\r\n";
-                cardNumLen = 0;
+                cardNumLen = 0; 
                 cardNum = "";
             }
         }
