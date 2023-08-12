@@ -8,6 +8,9 @@ namespace NFCReaderRich
         string text;
         SerialPort sp;
         int[] baudRates = { 9600, 19200, 38400, 115200 };
+        int[] cardNumMaxLen = { 30, 60 };
+        int cardNumLen;
+        string cardNum;
 
         public Form1()
         {
@@ -106,21 +109,28 @@ namespace NFCReaderRich
 
         private void richReceivedShow(string text)
         {
-
+            
             this.richRecived.Text += text;
             this.tbReadSize.Text += text.Length.ToString() + " ";
 
-            string s1 = this.richRecived.Text;
-            int n1 = s1.Length;
+            this.cardNum += text; 
+            this.cardNumLen += text.Length;
+            string s1 = this.cardNum;
             int pos = s1.IndexOf("9A03", StringComparison.OrdinalIgnoreCase);
             //string token = s1.Substring(pos, 4);
-            if (n1==30 && pos!=26)
-            {
-                this.richRecived.Text += Environment.NewLine; 
-            }
-            if (n1 == 60 && pos == 26)
+            if (cardNumLen == 30 && pos!=26)
             {
                 this.richRecived.Text += Environment.NewLine;
+                //this.richRecived.Text += "\r\n";
+                cardNumLen = 0;
+                cardNum = "";
+            }
+            if (cardNumLen == 60 && pos == 26)
+            {
+                this.richRecived.Text += Environment.NewLine;
+                //this.richRecived.Text += "\r\n";
+                cardNumLen = 0;
+                cardNum = "";
             }
         }
 

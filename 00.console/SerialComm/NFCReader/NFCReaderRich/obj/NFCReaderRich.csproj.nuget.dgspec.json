@@ -1,28 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReaderRich\\NFCReaderRich.csproj": {}
+    "D:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReaderRich\\NFCReaderRich.csproj": {}
   },
   "projects": {
-    "C:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReaderRich\\NFCReaderRich.csproj": {
+    "D:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReaderRich\\NFCReaderRich.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReaderRich\\NFCReaderRich.csproj",
+        "projectUniqueName": "D:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReaderRich\\NFCReaderRich.csproj",
         "projectName": "NFCReaderRich",
-        "projectPath": "C:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReaderRich\\NFCReaderRich.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReaderRich\\obj\\",
+        "projectPath": "D:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReaderRich\\NFCReaderRich.csproj",
+        "packagesPath": "C:\\Users\\sh\\.nuget\\packages\\",
+        "outputPath": "D:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReaderRich\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\sh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -55,8 +51,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -68,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
