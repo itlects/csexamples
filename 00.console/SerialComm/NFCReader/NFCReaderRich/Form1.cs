@@ -11,6 +11,12 @@ namespace NFCReaderRich
         int[] cardNumMaxLen = { 30, 60 };
         int cardNumLen;
         string cardNum;
+        string cardNumStx;
+        string cardNumEtx;
+        bool cardNumReading = false;
+        const string STX = "02";
+        const string ETX = "03";
+        const string ENV_CARD_TOKEN_ID = "9A03";
 
         public Form1()
         {
@@ -114,24 +120,51 @@ namespace NFCReaderRich
             this.tbReadSize.Text += text.Length.ToString() + " ";
 
             this.cardNum += text; 
-            this.cardNumLen += text.Length;
             string s1 = this.cardNum;
-            int pos = s1.IndexOf("9A03", StringComparison.OrdinalIgnoreCase);
-            //string token = s1.Substring(pos, 4);
-            if (cardNumLen == 30 && pos!=26)
+
+            string parsingStx = text.Substring(0, 2);
+            //-- 시작 reading
+            if (parsingStx == STX && cardNumLen==0 && cardNumReading==false)
             {
-                this.richRecived.Text += Environment.NewLine;
-                //this.richRecived.Text += "\r\n";
-                cardNumLen = 0;
-                cardNum = "";
+                this.cardNumStx = text.Substring(0, 2);
+                this.cardNumReading = true;
             }
-            if (cardNumLen == 60 && pos == 26)
+
+            this.cardNumLen += text.Length;
+
+            string parseingEtx = text.Substring(text.Length - 2);
+            //-- 종료 reading
+            if (parseingEtx == ETX && cardNumReading == true)
             {
-                this.richRecived.Text += Environment.NewLine;
-                //this.richRecived.Text += "\r\n";
-                cardNumLen = 0; 
-                cardNum = "";
+                this.cardNumEtx = text.Substring(text.Length - 2);
             }
+
+            if (cardNumEtx == ETX) {
+                int pos = s1.IndexOf(ENV_CARD_TOKEN_ID, StringComparison.OrdinalIgnoreCase);
+
+                if (pos != 26)
+                {
+                    this.richRecived.Text += Environment.NewLine;
+                    //this.richRecived.Text += "\r\n";
+                    cardReadInfoReset();
+                }
+
+                if (cardNumLen == 60 && pos == 26)
+                {
+                    this.richRecived.Text += Environment.NewLine;
+                    //this.richRecived.Text += "\r\n";
+                    cardReadInfoReset();
+                }
+            }
+        }
+
+        private void cardReadInfoReset()
+        {
+            this.cardNumLen = 0;
+            this.cardNum = "";
+            this.cardNumStx = "";
+            this.cardNumEtx = "";
+            this.cardNumReading = false;
         }
 
         private void btClose_Click(object sender, EventArgs e)

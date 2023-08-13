@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "R8j/VF9HblCRR2lOQUws7OgzyMNhKKAGHSRC4pORhgJwiC2MON76x4duqRUUMqsvFkV+SRCc76vT5LJ5nIOUaQ==",
+  "dgSpecHash": "v1Y0dpr3Hl3ExMp6CPsnpB556XkY6KUTpHMJxNR4D7p/Uf0eXbV/X7fDEWFAcWVcizuEnLe+eTD0UwNrlSE23g==",
   "success": true,
-  "projectFilePath": "D:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReader\\NFCReader.csproj",
+  "projectFilePath": "C:\\works\\git\\csexamples\\00.console\\SerialComm\\NFCReader\\NFCReader\\NFCReader.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\sh\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
-    "C:\\Users\\sh\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
-    "C:\\Users\\sh\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
-    "C:\\Users\\sh\\.nuget\\packages\\runtime.native.system.io.ports\\6.0.0\\runtime.native.system.io.ports.6.0.0.nupkg.sha512",
-    "C:\\Users\\sh\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.osx-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
-    "C:\\Users\\sh\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\6.0.0\\runtime.osx-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
-    "C:\\Users\\sh\\.nuget\\packages\\system.io.ports\\6.0.0\\system.io.ports.6.0.0.nupkg.sha512"
+    "C:\\Users\\USER\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\runtime.native.system.io.ports\\6.0.0\\runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.osx-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\6.0.0\\runtime.osx-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.io.ports\\6.0.0\\system.io.ports.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
