@@ -16,7 +16,14 @@ namespace NFCReaderRich
         bool cardNumReading = false;
         const string STX = "02";
         const string ETX = "03";
-        const string ENV_CARD_TOKEN_ID = "9A03";
+        const string ENV_CARD_TOKEN_ID  = "99BF0C1100";
+        const string ENV_CARD_TOKEN_1ST = "023D010008";
+        const string ENV_CARD_TOKEN_2ND = "023E010008";
+        int readingCnt;
+        string EnvToken;
+        string[] spReads = new string[2];
+        string spReadsDebug;
+
 
         public Form1()
         {
@@ -92,6 +99,7 @@ namespace NFCReaderRich
         private void sp_dataReceived(object sender, SerialDataReceivedEventArgs e)
         {
             int recvSize = sp.BytesToRead;
+            //recvSize = 30;
             string recvStr = string.Empty;
 
             if (recvSize != 0)
@@ -103,6 +111,7 @@ namespace NFCReaderRich
                     recvStr += buf[i].ToString("X2");
                 }
                 text = recvStr;
+                this.spReadsDebug += text.Length.ToString() + " ";
             }
 
             if (this.richRecived.InvokeRequired)
@@ -110,62 +119,108 @@ namespace NFCReaderRich
                 this.Invoke(new myRichReceivedCallback(richReceivedShow), new object[] {
                     recvStr
                 });
+                Console.WriteLine("invoke recvStr complete!");
             }
         }
 
+
         private void richReceivedShow(string text)
         {
-            
+
             this.richRecived.Text += text;
             this.tbReadSize.Text += text.Length.ToString() + " ";
-
-            this.cardNum += text; 
-            string s1 = this.cardNum;
+            this.tbSpReadSize.Text = this.spReadsDebug;
+            int pos1 = -1, pos2 = -1;
 
             string parsingStx = text.Substring(0, 2);
+            
             //-- 시작 reading
-            if (parsingStx == STX && cardNumLen==0 && cardNumReading==false)
+            if (parsingStx == STX && cardNumLen == 0 && cardNumReading == false)
             {
+                cardReadInfoReset();
                 this.cardNumStx = text.Substring(0, 2);
                 this.cardNumReading = true;
+                this.readingCnt = 0;
             }
-
+            
+            this.cardNum += text;
             this.cardNumLen += text.Length;
 
-            string parseingEtx = text.Substring(text.Length - 2);
+            string parseingEtx = text.Substring(text.Length - 2, 2);
+
+            
             //-- 종료 reading
-            if (parseingEtx == ETX && cardNumReading == true)
+            if (parseingEtx == ETX)
             {
-                this.cardNumEtx = text.Substring(text.Length - 2);
-            }
+                pos1 = this.cardNum.IndexOf(ENV_CARD_TOKEN_1ST, StringComparison.OrdinalIgnoreCase);
+                pos2 = this.cardNum.IndexOf(ENV_CARD_TOKEN_2ND, StringComparison.OrdinalIgnoreCase);
 
-            if (cardNumEtx == ETX) {
-                int pos = s1.IndexOf(ENV_CARD_TOKEN_ID, StringComparison.OrdinalIgnoreCase);
-
-                if (pos != 26)
+                if (this.cardNumLen == 30)
                 {
-                    this.richRecived.Text += Environment.NewLine;
-                    //this.richRecived.Text += "\r\n";
-                    cardReadInfoReset();
-                }
+                    if (pos2 == 0)
+                    {
+                        //cardReadInfoInit();
+                        this.richRecived.Text += Environment.NewLine;
 
-                if (cardNumLen == 60 && pos == 26)
-                {
-                    this.richRecived.Text += Environment.NewLine;
-                    //this.richRecived.Text += "\r\n";
-                    cardReadInfoReset();
+                        this.cardNumReading = false;
+                        this.readingCnt = 1;
+                        this.spReads[this.readingCnt] = this.cardNum;
+                        //}
+                        this.spReads[this.readingCnt] = this.cardNum;
+
+                        lbStatus.Text = string.Format("{0}번째 reading", this.readingCnt + 1);
+
+                        cardReadInfoReset();                        
+                    }
+
+                    if (pos1 == 0) { 
+                        this.richRecived.Text += Environment.NewLine;
+                        //this.richRecived.Text += "\r\n";
+                        this.cardNumEtx = parseingEtx;
+
+                        this.readingCnt = 0;
+                        this.spReads[this.readingCnt] = this.cardNum;
+                        setCardNum16(this.spReads[readingCnt].Substring(10, 16));
+
+                        lbStatus.Text = string.Format("{0}번째 reading", this.readingCnt + 1);
+
+                        cardReadInfoReset();
+
+                    }
                 }
             }
+        }
+
+
+        private void setCardNum16(string cardNum16)
+        {
+            if (this.cardNumLen >= 30)
+            {
+                this.textBoxCardNum16.Text = cardNum16;
+                
+            }
+        }
+
+        private void cardReadInfoInit()
+        {
+            this.textBoxCardNum16.Text = "";
+            this.richRecived.Text = "";
+            this.tbReadSize.Text = "";
+            this.tbSpReadSize.Text = "";
+            cardReadInfoReset();
         }
 
         private void cardReadInfoReset()
         {
             this.cardNumLen = 0;
             this.cardNum = "";
-            this.cardNumStx = "";
-            this.cardNumEtx = "";
+            //this.cardNumStx = "";
+            //this.cardNumEtx = "";
             this.cardNumReading = false;
+            this.spReadsDebug = "";
+            this.readingCnt = 0;
         }
+
 
         private void btClose_Click(object sender, EventArgs e)
         {
@@ -180,6 +235,20 @@ namespace NFCReaderRich
             }
             this.btClose.Enabled = false;
             this.btOpen.Enabled = true;
+        }
+
+        private void btInit_Click(object sender, EventArgs e)
+        {
+            this.textBoxCardNum16.Text = "";
+            this.richRecived.Text = "";
+            this.tbReadSize.Text = "";
+            this.tbSpReadSize.Text = "";
+            cardReadInfoReset();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
