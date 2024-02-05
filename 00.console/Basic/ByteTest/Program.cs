@@ -31,9 +31,44 @@ namespace Basic // Note: actual namespace depends on the project name.
 
             //int2byte();
 
-            ushort2bytes();
+            //ushort2bytes();
             //ushort2bytes2(); //using List
 
+
+            //-- byte로 문자로 표시된 잘자정보
+            byte[] dt1 = {0x20, 0x24, 0x01, 0x03, 0x13, 0x30, 0x51 }; // 20240103133051
+            //printByte2Str(dt1);
+            Console.WriteLine("dt1 length: "+dt1.Length);
+            printByteArrayToCharString(dt1);
+
+
+            Console.WriteLine();
+            byte[] bs1 = Encoding.Default.GetBytes("20240103133051");
+            //-- Byte Array is: 50 48 50 52 48 49 48 51 49 51 51 48 53 49
+            Console.WriteLine("bs1 length: " + bs1.Length);//-- length:  14
+            printByteArrayToCharString(bs1);
+
+            Console.WriteLine();
+            byte[] cardNumb = Encoding.ASCII.GetBytes("20240103133051");
+            printByteArrayToCharString(cardNumb);
+        }
+
+        public static void printByteArrayToCharString(byte[] bs)
+        {
+            //byte[] bs1 = Encoding.Default.GetBytes("20240103133051");
+            //byte[] bytes = Encoding.Default.GetBytes("ABC123");
+            Console.WriteLine("Byte Array is: " + String.Join(" ", bs));
+
+            string str = Encoding.Default.GetString(bs);
+            Console.WriteLine("The String is: " + str);
+
+            //return str;
+        }
+
+        private static void printByte2Str(byte[] bs)
+        {
+            string s1 = string.Format("{0:X2}", bs);
+            Console.WriteLine(s1);
         }
 
         private static void ushort2bytes2()

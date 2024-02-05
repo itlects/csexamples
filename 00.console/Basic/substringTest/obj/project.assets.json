@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Users\\sh\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\works\\git\\csexamples\\00.console\\Basic\\substringTest\\substringTest.csproj",
+      "projectUniqueName": "F:\\my\\git\\csexamples\\00.console\\Basic\\substringTest\\substringTest.csproj",
       "projectName": "substringTest",
-      "projectPath": "C:\\works\\git\\csexamples\\00.console\\Basic\\substringTest\\substringTest.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\works\\git\\csexamples\\00.console\\Basic\\substringTest\\obj\\",
+      "projectPath": "F:\\my\\git\\csexamples\\00.console\\Basic\\substringTest\\substringTest.csproj",
+      "packagesPath": "C:\\Users\\sh\\.nuget\\packages\\",
+      "outputPath": "F:\\my\\git\\csexamples\\00.console\\Basic\\substringTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

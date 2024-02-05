@@ -169,6 +169,7 @@ namespace NFCReaderRich
                         this.spReads[this.readingCnt] = this.cardNum;
 
                         lbStatus.Text = string.Format("{0}¹øÂ° reading", this.readingCnt + 1);
+                        this.cardNumEtx = parseingEtx;
 
                         cardReadInfoReset();                        
                     }

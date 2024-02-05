@@ -13,3 +13,17 @@ C:\works\git\csexamples\00.console\Basic\substringTest\obj\Debug\net6.0\refint\s
 C:\works\git\csexamples\00.console\Basic\substringTest\obj\Debug\net6.0\substringTest.pdb
 C:\works\git\csexamples\00.console\Basic\substringTest\obj\Debug\net6.0\substringTest.genruntimeconfig.cache
 C:\works\git\csexamples\00.console\Basic\substringTest\obj\Debug\net6.0\ref\substringTest.dll
+F:\my\git\csexamples\00.console\Basic\substringTest\bin\Debug\net6.0\substringTest.exe
+F:\my\git\csexamples\00.console\Basic\substringTest\bin\Debug\net6.0\substringTest.deps.json
+F:\my\git\csexamples\00.console\Basic\substringTest\bin\Debug\net6.0\substringTest.runtimeconfig.json
+F:\my\git\csexamples\00.console\Basic\substringTest\bin\Debug\net6.0\substringTest.dll
+F:\my\git\csexamples\00.console\Basic\substringTest\bin\Debug\net6.0\substringTest.pdb
+F:\my\git\csexamples\00.console\Basic\substringTest\obj\Debug\net6.0\substringTest.GeneratedMSBuildEditorConfig.editorconfig
+F:\my\git\csexamples\00.console\Basic\substringTest\obj\Debug\net6.0\substringTest.AssemblyInfoInputs.cache
+F:\my\git\csexamples\00.console\Basic\substringTest\obj\Debug\net6.0\substringTest.AssemblyInfo.cs
+F:\my\git\csexamples\00.console\Basic\substringTest\obj\Debug\net6.0\substringTest.csproj.CoreCompileInputs.cache
+F:\my\git\csexamples\00.console\Basic\substringTest\obj\Debug\net6.0\substringTest.dll
+F:\my\git\csexamples\00.console\Basic\substringTest\obj\Debug\net6.0\refint\substringTest.dll
+F:\my\git\csexamples\00.console\Basic\substringTest\obj\Debug\net6.0\substringTest.pdb
+F:\my\git\csexamples\00.console\Basic\substringTest\obj\Debug\net6.0\substringTest.genruntimeconfig.cache
+F:\my\git\csexamples\00.console\Basic\substringTest\obj\Debug\net6.0\ref\substringTest.dll

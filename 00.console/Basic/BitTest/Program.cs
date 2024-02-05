@@ -5,7 +5,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
     internal class Program
     {
         private bool GetBit(ushort status, int bitOffset) => ((int)status >> bitOffset & 1) > 0;
-
+        //public uint GetEnergy() => (uint)this._rawData[7] << 16 | (uint)this._rawData[8];
         // (uint) this._rawData[28] << 16 | (uint)this._rawData[29];
 
         static void Main(string[] args)
@@ -24,7 +24,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             ushort[] _rawData = new ushort[0x1f];
             _rawData[7] = 0b00000000_10000000;
             _rawData[8] = 0b00000000_01000000;
-            printDecimal2BinaryFormat(_rawData[7] << 0x10, 32);//-- 0x10(16bit) left shift,  bin:00000000_10000000_00000000_00000000
+            printDecimal2BinaryFormat(_rawData[7]   << 0x10, 32);//-- 0x10(16bit) left shift,  bin:00000000_10000000_00000000_00000000
             uint reg = (uint) (_rawData[7] << 0x10) | _rawData[8];
             printDecimal2BinaryFormat(reg, 32);
         }
